@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 // Rule of thumb
-// 1. Multiple setStates are batched to single updateie only 1 re-render irrespective of how many setState.
+// 1. Multiple setStates are batched to single update ie only 1 re-render irrespective of how many setState.
 // 2. setState is asynchronous ie although all the setState happen but in an asynchronous manner.
+// 3. State updates are merged.
 
 // Rules
 // 1. Do Not Modify State Directly

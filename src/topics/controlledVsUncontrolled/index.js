@@ -2,7 +2,7 @@ import React from "react";
 
 // In HTML, form elements such as <input>, <textarea>, and <select> typically maintain their own state and update it based on user input.
 // Controlled Component : The React component that renders a form also controls what happens in that form on subsequent user input. Or the react component maintains and updates the state of the input fields in a form.
-// Uncontrolled Component : The input filed maintain and update theie state by themself and react has no clue of the current state of the input field. It just gets the value of the input field by refering the html element using the ref keyword.
+// Uncontrolled Component : The input filed maintain and update their state by themself and react has no clue of the current state of the input field. It just gets the value of the input field by refering the html element using the ref keyword.
 // IMP : In React, an <input type="file" /> is always an uncontrolled component because its value can only be set by a user, and not programmatically.
 
 // Controlled

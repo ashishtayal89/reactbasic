@@ -6,7 +6,7 @@ import { Component } from "react";
 //   return props.name;
 // }
 
-// 2
+// 2 this.props is not accessible here since we have not invoked super.
 // export default class UseSuper extends Component {
 //   constructor(props) {
 //     console.log(this.props);
@@ -25,12 +25,12 @@ import { Component } from "react";
 // }
 
 // 4
-export default class UseSuper extends Component {
-  constructor(props) {
-    super(props);
-    console.log(this.props);
-  }
-  render() {
-    return this.props.name;
-  }
-}
+// export default class UseSuper extends Component {
+//   constructor(props) {
+//     super(props);
+//     console.log(this.props);
+//   }
+//   render() {
+//     return this.props.name;
+//   }
+// }
